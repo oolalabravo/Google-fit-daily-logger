@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.7+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # 🩺 Google Fit Daily Logger (Python Script)
 
 A simple but powerful Python script that pulls your **Google Fit data from the previous day** and logs it to a readable `.txt` file — including:
