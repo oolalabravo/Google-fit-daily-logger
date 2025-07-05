@@ -39,8 +39,44 @@ Runs automatically every day. Ideal for smartwatch users who want **desktop acce
    - Put it in the same folder as the script
 
 ---
+---
 
-### 💾 2. Clone this Repository
+### ⏰ 7. Automate Daily Logging (Optional)
+
+Want to log your health data **every day without opening the script manually?**  
+Follow the guide for your OS below:
+
+---
+
+### 🪟 Windows: Use Task Scheduler
+
+1. Press `Win + S` → Search for **Task Scheduler** → Open it  
+2. In the right panel, click **“Create Basic Task”**
+3. Name it `Google Fit Logger` and click **Next**
+4. **Trigger** → Select `Daily` → set time (e.g., `12:00 PM`)
+5. **Action** → Choose `Start a Program`
+6. In **Program/script**, write:
+7. In **Add arguments**, write:
+8. In **Start in**, write the full path to your script folder  
+*(e.g., `C:\Users\YourName\Documents\google-fit-daily-logger`)*  
+9. Click **Finish**
+
+✅ Your logger will now run automatically every day at 12 PM!
+
+---
+
+### 🐧 Linux: Use crontab
+
+1. Open terminal  
+2. Run the command:
+
+```bash
+crontab -e
+0 12 * * * /usr/bin/python3 /full/path/to/main.py
+
+
+
+### 💾  Clone this Repository
 
 ```bash
 git clone https://github.com/oolalabravo/google-fit-daily-logger.git
