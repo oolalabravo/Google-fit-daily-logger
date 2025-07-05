@@ -81,3 +81,11 @@ crontab -e
 ```bash
 git clone https://github.com/oolalabravo/google-fit-daily-logger.git
 cd google-fit-daily-logger
+
+## File structure should be
+├── main.py
+├── requirements.txt
+├── token.json
+├── README.md
+└── seacrets.json
+
