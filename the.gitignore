@@ -1,5 +1,12 @@
+# 🔐 Sensitive credentials
 token.json
+token2.json
 client_secret.json
+
+# 🗃️ Python cache
 __pycache__/
 *.pyc
+
+# 📄 Generated log file
 Fitness log.txt
+
