@@ -1,5 +1,8 @@
 ![Python](https://img.shields.io/badge/python-3.7+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Google Fit API](https://img.shields.io/badge/API-Google%20Fit-red)
+![Built with Love](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
+
 
 # 🩺 PyFit — Google Fit Daily Email Logger
 
