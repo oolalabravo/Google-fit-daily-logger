@@ -163,4 +163,4 @@ Feel free to fork and improve it ✨
 
 ---
 
-Let me know if you want a `requirements.txt` or GitHub Actions support too!
+
